@@ -1,0 +1,55 @@
+<html>
+<head>
+	<!--<link rel="stylesheet" href="nui://scoreboard/html/style.css">-->
+	<link rel="stylesheet" href="style.css?ver=45165">
+	<link rel="stylesheet" type="text/css"
+		href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="listener.js" type="text/javascript"></script>
+</head>
+
+<body style="background-color: transparent;">
+	<div class="scoreboard" style="display: none;">
+		<div class="row">
+			<div class="col-md-12 scoreboard-title">
+				<h1></h1>
+			</div>
+			<div class="scoreboard-content">
+				<div id="multi" class="table col-md-6 player-list-1">
+				</div>
+				<div id="multi" class="table col-md-6 player-list-2" style="display: none;">
+				</div>
+				<div id="multi" class="table col-md-6 player-list-3" style="display: none;">
+				</div>
+				<div id="multi" class="table col-md-6 player-list-4" style="display: none;">
+				</div>
+				<div id="multi" class="table col-md-6 player-list-5" style="display: none;">
+				</div>
+				<div id="multi" class="table col-md-6 player-list-6" style="display: none;">
+				</div>
+				<div id="multi" class="table col-md-6 player-list-7" style="display: none;">
+				</div>
+				<div id="multi" class="table col-md-6 player-list-8" style="display: none;">
+				</div>
+			</div>
+			<div class="col-md-12 player-count" style="position: absolute;bottom:10px;">
+				<span id="player-count">0/128</span>
+			</div>
+			<div class="col-md-12 page-switcher" style="position: absolute;bottom:40px;">
+				<span id="switcher-1" class="active">&bull;</span>
+				<span id="switcher-2">&bull;</span>
+				<span id="switcher-3">&bull;</span>
+				<span id="switcher-4">&bull;</span>
+				<span id="switcher-5">&bull;</span>
+				<span id="switcher-6">&bull;</span>
+				<span id="switcher-7">&bull;</span>
+				<span id="switcher-8">&bull;</span>
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>
